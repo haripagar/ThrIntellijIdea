@@ -17,7 +17,7 @@ def test_TitleTest():
 
     act_title = HP.title
     print(act_title)
-    if act_title == "Nashik Tea House QA 1, Bandra Order Online":
+    if act_title == "Nashik Tea House QA 1, Sinnar Order Online":
         assert True
         HP.close()
     else:
